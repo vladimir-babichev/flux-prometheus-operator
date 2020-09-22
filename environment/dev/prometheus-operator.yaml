@@ -77,6 +77,9 @@ spec:
           reporting_enabled: false
         auth.anonymous:
           enabled: true
+      sidecar:
+        notifiers:
+          searchNamespace: ALL
 
     alertmanager:
       ingress:
